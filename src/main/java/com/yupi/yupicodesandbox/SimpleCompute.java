@@ -1,0 +1,9 @@
+package com.yupi.yupicodesandbox;
+
+public class SimpleCompute {
+    public static void main(String[] args) {
+        int i = Integer.parseInt(args[0]);
+        int h = Integer.parseInt(args[0]);
+        System.out.println("结果:"+ (i+h));
+    }
+}
